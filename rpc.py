@@ -3,7 +3,8 @@ val = 0
 vals = 0
 rounds=int(input("select rounds from 1 to 5"))
 if(rounds>5):
-    print("not valid..anyways play for 5 rounds")
+    print("not valid")
+    exit()
 for i in range(1,6):
     if(rounds+1==i):
         print("match over")
